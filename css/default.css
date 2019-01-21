@@ -1,0 +1,129 @@
+/*
+* @Author: Brzjomo
+* @Date:   2018-04-23 18:47:01
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-11-23 17:41:00
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666;
+}
+
+a:hover {
+	color: #666;
+}
+
+a:active {
+	color: #666;
+}
+
+.bgc-th {
+	background-color: #ddd;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.font20 {
+	font: 400 20px “微软雅黑”;
+}
+
+.font25 {
+	font: 400 25px “微软雅黑”;
+}
+
+.font30 {
+	font: 400 30px “微软雅黑”;
+}
+
+.font50 {
+	font: 400 50px "微软雅黑";
+}
+
+.font200 {
+	font: 400 200px "微软雅黑";
+}
+
+.font300 {
+	font: 400 300px "微软雅黑";
+}
+
+.margin-top15 {
+	margin-top: 15px;
+}
+
+.nav-bgcolor {
+	background-color: #fff;
+}
+
+.nav-wd {
+	width: 162px;
+}
+
+.html-bgc {
+	background-color: #F4F4F4;
+}
+
+.footer-font {
+	font: 400 12px "微软雅黑";
+	color: gray;
+}
+
+.div-center {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.index-img-height {
+	height: 290px;
+}
+
+.tdborder-right {
+	border-right: 2px dashed grey;
+}
+
+.table tr td {		/*增加权重，覆盖bs4样式*/
+	padding: 0;		/*让按钮的大小为td的大小*/
+}
+
+.table tr .no-border {		/*增加权重，覆盖bs4样式*/
+	border-top-width: 0;		/*去掉第一行表格上边框*/
+}
+
+.table th{
+	border-radius: 10px;
+	border-top-width: 0;		/*去掉表头上边框*/
+}
+
+button {
+	border: 0;
+	background-color: #f4f4f4;
+	padding: 0.75rem;		/*撑开按钮大小*/
+	transition: 0.1s;		/*过渡*/
+}
+
+table a button {		/*撑大音图首页按钮*/
+	width: 100%;
+	height: 100%;
+}
+
+button:hover {
+	background-color: #f6ca68;
+	border-radius: 12px;		/*按钮圆角*/
+	transition: 0.2s;		/*过渡*/
+}
+
+td:hover {
+	border-radius: 12px;		/*按钮圆角*/
+}
