@@ -22,6 +22,38 @@ ul {
 	border: 0;
 }
 
+.container .tab-content{
+	margin: 0 auto;
+}
+
+.container .row{
+	margin: 0;
+}
+
+.navbar div{
+	position: relative;
+}
+
+.navbar div img{
+	width: 40px;
+	position: absolute;
+}
+
+@keyframes logo-fade-in {
+	0% {opacity: 0}
+	100% {opacity: 1} 		/*定义动画*/
+}
+
+@media (max-width: 575px) {
+	.navbar div img{
+		right: 0;
+		top: -40px;		/*上移40px，与导航栏按钮对齐*/
+		position: absolute;
+		animation: logo-fade-in;		/*播放动画*/
+		animation-duration: 1.5s;		/*动画持续时间*/
+	}
+}
+
 .riyu-container {
 	margin-left: auto;
 	margin-right: auto;
