@@ -30,6 +30,11 @@ ul {
 	margin: 0;
 }
 
+.container .riyu-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .navbar div{
 	position: relative;
 }
