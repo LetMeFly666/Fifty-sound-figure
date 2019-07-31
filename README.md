@@ -5,4 +5,4 @@ HTML写的五十音图表，用来帮助记忆，随时复习。
 
 预览：
 
-<img src="index.jpg">
+<img src="index.png">
