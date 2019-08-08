@@ -1,12 +1,12 @@
 # Todo List
 
-1.浊音半浊音、拗音页面的改版。
+<del>1.浊音半浊音、拗音页面的改版。</del>
 
 2.排查并更换不适当的、太短促的音频，如'e.mp3'。
 
-3.媒体查询优化。手机端拗音换行、页面过宽问题，大屏幕显示过小问题，假名页面缩放问题。
+3.媒体查询优化。<del>手机端拗音换行、</del>页面过宽问题，大屏幕显示过小问题，假名页面缩放问题。
 
-4.精简CSS。default.css、黑镜CSS用到的属性，并入riyu-dist.css；删除riyu.css。最终只留一份riyu-dist.css。
+4.精简CSS。<del>default.css、</del>黑镜CSS用到的属性，并入riyu-dist.css；删除riyu.css。<del>最终只留一份riyu-dist.css。</del>
 
 5.增加一个可选首页，同时显示所有假名和罗马音，不需要鼠标激活显示。
 
