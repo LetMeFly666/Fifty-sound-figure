@@ -2,7 +2,7 @@
 Author: LetMeFly
 Date: 2022-02-09 11:57:55
 LastEditors: LetMeFly
-LastEditTime: 2022-02-10 10:51:18
+LastEditTime: 2022-02-10 11:49:48
 '''
 import os
 
@@ -35,13 +35,17 @@ if __name__ == "__main__":
         ('tab-pane container active', 'tab-pane active'),
         ('../../../riyu.html', '"../../../index.html"'),
         # ('logo-brzjomo.png', '"../../../imgs/logo-brzjomo.png"'),
-        ('../../../"imgs/"../../../imgs/logo-brzjomo.png""', '"../../../imgs/logo-brzjomo.png"')
+        ('../../../"imgs/"../../../imgs/logo-brzjomo.png""', '"../../../imgs/logo-brzjomo.png"'),
+        ('riyu-content-yintu-aoyin tab-pane container', 'riyu-content-yintu-aoyin tab-pane'),
+        ('riyu-content-yintu-aoyin tab-pane container active', 'riyu-content-yintu-aoyin tab-pane active')
     ]
 
 
     files = dfs(os.getcwd())
     for file in files:
         if not file.endswith(".html"):
+            continue
+        if file == os.path.abspath(os.path.join(os.getcwd(), "index.html")):
             continue
         print(file)
         with open(file, "r", encoding='utf-8') as f:
