@@ -2,7 +2,7 @@
 Author: LetMeFly
 Date: 2022-02-09 11:57:55
 LastEditors: LetMeFly
-LastEditTime: 2022-02-10 00:14:33
+LastEditTime: 2022-02-10 10:51:18
 '''
 import os
 
@@ -32,7 +32,10 @@ if __name__ == "__main__":
         ('https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css', '"../../../css/APlayer.min.css"'),
         ('https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js', '"../../../js/APlayer.min.js"'),
         ('riyu-content-yintu tab-pane container', 'riyu-content-yintu tab-pane'),
-        ('tab-pane container active', 'tab-pane active')
+        ('tab-pane container active', 'tab-pane active'),
+        ('../../../riyu.html', '"../../../index.html"'),
+        # ('logo-brzjomo.png', '"../../../imgs/logo-brzjomo.png"'),
+        ('../../../"imgs/"../../../imgs/logo-brzjomo.png""', '"../../../imgs/logo-brzjomo.png"')
     ]
 
 
